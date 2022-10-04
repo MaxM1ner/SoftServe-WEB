@@ -1,0 +1,18 @@
+.marked {
+    background-color: rgba(139, 0, 35, 0.55);
+    padding-block:inherit;
+    padding-inline:inherit;
+}
+.styled-ol {
+    background-color: rgb(252, 165, 216);
+    list-style-position: inside;
+    padding: 20px;
+}
+.styled-ol li {
+    padding: 10px;
+    color: whitesmoke;
+    border-top: 10px solid rgb(252, 165, 216);
+    background-color: rgba(187, 14, 80, 0.4);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
