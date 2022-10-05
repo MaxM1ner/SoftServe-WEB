@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px;
+	padding: 20px;
+}
+
+table {
+	font-size: 24px;
+	width: 60%;
+	height: 80%;
+}
+
+table,
+th,
+tr,
+td {
+	border-collapse: collapse;
+	border: 2px solid grey;
+}
+
+td {
+	padding-left: 10x;
+	text-align: center;
+}
+
+th {
+	font-size: 20px;
+}
+
+.italic {
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+	color: #333333;
+}
+
+.period td {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.period1 {
+	text-align: left;
+	word-wrap: inherit;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.lyellow {
+	background-color: rgb(241, 222, 126);
+}
+
+.lblue {
+	background-color: rgb(186, 186, 247);
+}
+
+.lred {
+	background-color: rgb(250, 167, 167);
+}
+
+.lgreen {
+	background-color: rgb(144, 255, 188);
+}
+
+.purple {
+	background-color: rgb(252, 165, 252);
+}
+
+.upper {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.aspect {
+	width: 9%;
+}
+
+.simple {
+	height: 70px;
+	width: 18%;
+}
+
+.progressive {
+	width: 19%;
+}
+
+.perfect {
+	width: 17%
+}
+
+.perfect_progressive {
+	width: 17%
+}

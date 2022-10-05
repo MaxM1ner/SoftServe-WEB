@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+dl {
+    counter-reset: number;
+}
+dt {
+    font-style: italic;
+    margin: 30px 0px;
+}
+dd:before {
+    content: counter(number) '. ';
+    counter-increment: number;
+    counter-increment: number;
+}
+.grey {
+    color: grey;
+    margin: 4px 0px;
+    padding: 0;
+}
+.blue {
+    margin: 4px 0px;
+    padding: 0;
+    color: blue;
+}
+p {
+    margin: 3px 0px;
+    padding-left: 24px;
+}
