@@ -21,3 +21,7 @@ li.checked {
 li.marked {
     background-color: rgb(123, 179, 243);
 }
+.styled-ul li::after {
+    content: url("icons/arrow_16.png");
+    padding-left: 15px;
+}
