@@ -2,27 +2,14 @@
     border-collapse: collapse;
     text-align: center;
     margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 td, th {
     padding: 16px;
 }
 td:first-child {
     text-align: left;
-}
-thead th:first-child
-{
-    border-radius: 10px 0 0 0;
-}
-thead th:last-child
-{
-    border-radius: 0 10px 0 0;
-}
-tfoot th:first-child {
-    border-bottom-left-radius: 10px;
-}
-tfoot th:last-child
-{
-    border-bottom-right-radius: 10px;
 }
 thead th:nth-child(1){
     background-color: rgb(112, 112, 201);
