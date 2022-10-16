@@ -1,0 +1,100 @@
+header {
+    float: left;
+    color: white;
+    background-color: rgb(134, 134, 134);
+    min-height: 100vh;
+    width: 10vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    transition: 1s;
+    color: transparent;
+}
+header p {
+    color: white;
+}
+header:hover {
+    width: 20vw;
+    color: white;
+}
+body {
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 3vw;
+    padding-left: 15vw;
+    padding-top: 5vh;
+}
+p {
+    text-align: left;
+    padding-left: 1vw;
+}
+h2, p, li::after {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: left;
+}
+li:hover
+{
+    background-color: rgb(95, 95, 95);
+}
+li::after {
+    margin-left: 3vw;
+}
+li::before
+{
+    padding-left: 2vw;
+}
+li:nth-child(1)::before
+{
+    content: url("icons/pencil.png");
+}
+li:nth-child(1)::after
+{
+    content: 'Edit';
+}
+li:nth-child(2)::before
+{
+    content: url("icons/heart.png");
+}
+li:nth-child(2)::after
+{
+    content: 'Favorites';
+}
+li:nth-child(3)::before
+{
+    content: url("icons/clock.png");
+}
+li:nth-child(3)::after
+{
+    content: 'History';
+}
+li:nth-child(4)::before
+{
+    content: url("icons/shield.png");
+}
+li:nth-child(4)::after
+{
+    content: 'Security';
+}
+li:nth-child(5)::before
+{
+    content: url("icons/settings.png");
+}
+li:nth-child(5)::after
+{
+    content: 'Settings';
+}

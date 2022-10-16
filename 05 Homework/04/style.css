@@ -1,0 +1,47 @@
+#round {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 0.5vw solid darkcyan;
+    position: relative;
+}
+#dot {
+    position: absolute;
+    left: 49vw;
+    top: 105px;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: darkcyan;
+}
+#line1 {
+    position: absolute;
+    left: 49.5vw;
+    top: 107px;
+    width: 95px;
+    height: 0.4vw;
+    background-color: darkcyan;
+    transform-origin: 3% 100%;
+    animation: rtanim 5s linear 0s infinite forwards;
+}
+#line2 {
+    position: absolute;
+    left: 49.5vw;
+    top: 107px;
+    width: 80px;
+    height: 0.4vw;
+    background-color: darkcyan;
+    transform-origin: 3% 100%;
+    animation: rtanim 60s linear 0s infinite forwards;
+}
+
+@keyframes rtanim
+{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
