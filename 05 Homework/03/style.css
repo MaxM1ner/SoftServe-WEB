@@ -5,7 +5,7 @@
     margin: auto;
     margin-top: 50vh;
     border: 5px solid orange;
-    position: relative;
+    overflow: hidden;
 }
 
 #square {
@@ -14,19 +14,14 @@
     display: block;
     background-color: orange;
     border: 5px solid orange;
-    position: absolute;
-    margin: auto;
-    top: 50vh;
-    left: 30vw;
-    transition: all 3s;
-    animation: slide 2s ease 2s infinite alternate;
+    animation: slide 2s linear 2s infinite;
 }
 
 @keyframes slide {
     from {
-        left: 30vw;
+        margin-left: -25%;
     }
     to {
-        left: 59.5vw;
+        margin-left: 120%;
     }
 }

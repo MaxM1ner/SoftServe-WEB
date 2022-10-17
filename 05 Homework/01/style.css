@@ -27,6 +27,21 @@ body {
     padding-left: 15vw;
     padding-top: 5vh;
 }
+nav {
+    white-space: nowrap;
+}
+nav img {
+    margin-left: 2vw;
+}
+nav a {
+    margin-left: 4vw;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
 p {
     text-align: left;
     padding-left: 1vw;
@@ -50,51 +65,4 @@ ul li {
 li:hover
 {
     background-color: rgb(95, 95, 95);
-}
-li::after {
-    margin-left: 3vw;
-}
-li::before
-{
-    padding-left: 2vw;
-}
-li:nth-child(1)::before
-{
-    content: url("icons/pencil.png");
-}
-li:nth-child(1)::after
-{
-    content: 'Edit';
-}
-li:nth-child(2)::before
-{
-    content: url("icons/heart.png");
-}
-li:nth-child(2)::after
-{
-    content: 'Favorites';
-}
-li:nth-child(3)::before
-{
-    content: url("icons/clock.png");
-}
-li:nth-child(3)::after
-{
-    content: 'History';
-}
-li:nth-child(4)::before
-{
-    content: url("icons/shield.png");
-}
-li:nth-child(4)::after
-{
-    content: 'Security';
-}
-li:nth-child(5)::before
-{
-    content: url("icons/settings.png");
-}
-li:nth-child(5)::after
-{
-    content: 'Settings';
 }
