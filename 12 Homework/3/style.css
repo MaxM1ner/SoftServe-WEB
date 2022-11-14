@@ -13,6 +13,11 @@ form {
     border-radius: 20px;
 }
 
+.toLeft {
+    position: relative;
+    right: 70px;
+}
+
 form h2 {
     margin-top: 20px;
     font-weight: 900;
