@@ -52,21 +52,16 @@ form label {
 }
 
 #cardNumber, #nameSurname {
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 #month, #year, #cvv {
-    flex-basis: 12.5%;
-    max-width: 12.5%;
+    flex-basis: 33%;
     margin-bottom: 50px;
 }
 
-form label div, form div {
+form label div, .flexed {
     display: flex;
-}
-
-.flexed {
-    display: flex;
-    max-width: calc(50% + 20px);
+    max-width: 50%;
     justify-content: space-between;
 }
