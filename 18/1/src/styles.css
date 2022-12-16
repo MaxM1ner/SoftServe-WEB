@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: gray;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+label {
+  user-select: none;
+}
+.eventList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+.event {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.mainRow {
+  user-select: none;
+}
+.eventDescription {
+  color: lightblue;
+  user-select: none;
+  transition: 0.3s;
+}
+.eventVisible {
+  color: black;
+  user-select: none;
+  transition: 0.3s;
+}
+table {
+  border: 1px solid black;
+  border-radius: 5px;
+}
